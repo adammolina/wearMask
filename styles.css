@@ -20,7 +20,7 @@ h2, h1 {
   color: white;
   font-family: 'Noto Sans JP', sans-serif;
   text-align: left;
-  padding: 1rem 0 2rem 0;
+  padding: 1rem 0;
 }
 
 h4 {
@@ -40,7 +40,7 @@ h4 {
 }
 
 .form-group {
-  padding-left: 0rem;
+  padding: 1rem 0;
 }
 
 .container-fluid {
