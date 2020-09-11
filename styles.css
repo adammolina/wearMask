@@ -1,12 +1,24 @@
 p {
   color: white;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 h2, h1 {
   color: white;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+h4 {
+  color: white;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 .container-fluid {
   margin: none;
   padding: 10% 10% 10% 10%;
+  background-color: #529BF2;
+}
+
+#heading h4{
+  padding: 3%;
 }
