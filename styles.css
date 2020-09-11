@@ -28,6 +28,12 @@ h4 {
   font-family: 'Noto Sans JP', sans-serif;
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 .virusImg {
   width: 80%;
   height: auto;
