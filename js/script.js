@@ -3,9 +3,8 @@ function zipCode() {
     var zipCodeLength = input.length;
 
     if (zipCodeLength == 5) {
-      alert("Wear a mask today");
+      alert("Yes, you should wear a mask today.");
     } else {
       alert("Please enter a valid zip code.");
     }
-
   }
