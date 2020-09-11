@@ -15,41 +15,51 @@
 
 <body>
 
-<div>
-  <!--Title & Icon -->
-  <div class="container-fluid block1">
+  <div>
+    <!--Title & Icon -->
+    <div class="container-fluid block1">
       <div class="col-12 ml-auto text-align-left" style="border: none;">
-        <h4><img src="medical-mask.png" alt="">Mask checker</h4>
+        <h4><img src="medical-mask.png" class="maskImg" alt="">Mask checker</h4>
       </div>
 
-  </div>
-
-  <!--Instructions & Form-->
-  <div class="container-fluid block2">
-
-      <div class="col-12 text-align-left" style="border: none;">
-        <h2>Do you need a mask today?</h2>
-        <p>Find out if you can go outside without a mask.</p>
-      </div>
-
-    <div class="row">
-      <div class="col-12 text-align-left" style="border: none;">
-
-          <form id="form" class="form-inline justify-content-left" onsubmit="return false;">
-            <div class="form-group">
-              <input type="number" maxlength="5" id="userInput" class="form-control" placeholder="Enter Zip code">
-            </div>
-            <div class="form-group">
-              <button type="submit" onclick="zipCode()" class="btn btn-primary">Check</button>
-            </div>
-          </form>
-
-      </div>
     </div>
-    <footer>Icons made by <a href="https://www.flaticon.com/free-icon/medical-mask_2947787" title="Icongeek26">Icongeek26</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></footer>
 
+    <!--Instructions & Form-->
+    <div class="container-fluid block2">
+
+      <div class="row">
+        <div class="col-lg-6 col-sm-12 text-align-left" style="border: none;">
+          <h2>Do you need a mask today?</h2>
+          <p>Find out if you can go outside without a mask.</p>
+
+          <div class="text-align-left" style="border: none;">
+            <!-- Input field -->
+            <form id="form" class="form-inline text-align-left" onsubmit="return false;">
+              <div class="form-group">
+                <input type="number" maxlength="5" id="userInput" class="form-control" placeholder="Enter Zip code">
+              </div>
+
+              <!--Button -->
+              <div class="form-group buttonMain">
+                <button type="submit" onclick="zipCode()" class="btn btn-primary">Check</button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-sm-12">
+          <img src="coronavirus2.png" class="virusImg" alt="">
+        </div>
+      </div>
+
+
+
+
+
+      <footer>Icons made by <a href="https://www.flaticon.com/free-icon/medical-mask_2947787" title="Icongeek26">Icongeek26</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></footer>
+
+    </div>
   </div>
-</div>
 
 
   <!-- Optional JavaScript -->
