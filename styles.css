@@ -13,7 +13,7 @@ footer {
 p {
   color: white;
   font-family: 'Noto Sans JP', sans-serif;
-  padding: 3.5rem 0 0 0;
+  padding: 0.5rem 0 0.5rem 0;
 }
 
 h2, h1 {
@@ -35,14 +35,13 @@ input::-webkit-inner-spin-button {
 }
 
 .virusImg {
-  width: 80%;
+  width: 100%;
   height: auto;
 }
 
 .maskImg {
   width: 3rem;
   height: 3rem;
-  padding: ;
 }
 
 .form-group {
