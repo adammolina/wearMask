@@ -59,7 +59,7 @@ input::-webkit-inner-spin-button {
 }
 
 .buttonMain {
-  padding: 0 0 0 0.5rem;
+  padding: 0 0 0 0rem; 
 }
 
 #form {
