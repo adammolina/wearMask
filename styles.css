@@ -5,3 +5,13 @@ p {
 h2, h1 {
   color: white;
 }
+
+row {
+  padding: none;
+  margin: none;
+}
+
+form-inline {
+  padding: 1rem;
+  margin: none;
+}
