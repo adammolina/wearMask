@@ -14,7 +14,7 @@ footer {
 p {
   color: white;
   font-family: 'Noto Sans JP', sans-serif;
-  padding: 0.5rem 0 0.5rem 0;
+  padding: 6rem 0 0rem 0;
 }
 
 h2, h1 {
@@ -59,9 +59,9 @@ input::-webkit-inner-spin-button {
 }
 
 .buttonMain {
-  padding: 0 0 0 0rem; 
+  padding: 0 0 0 0rem;
 }
 
 #form {
-  padding: 0 1rem 0 0;
+  padding: 0 2rem 0 0;
 }
