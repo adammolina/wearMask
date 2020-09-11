@@ -1,8 +1,10 @@
-function yourResult() {
+function othername() {
+    var input = document.getElementById("userInput").length;
 
-}
 
 
-document.addEventListener('DOMContentLoaded', ()=> {
-  document.getElementById('btn').addEventListener('click', yourResult);
-});
+if (input === 5) {
+  alert("Yes you need a mask");
+} else {
+  alert("{Please enter a valid Zip code.}")
+;}
